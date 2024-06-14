@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=56;
+    printf("value of a=%d\n",a);
+    printf("address of a=%U\n",&a);
+    printf("value of a=%d\n",*(&a));
+}
+value of a=56
+address of a=%U
+value of a=56
