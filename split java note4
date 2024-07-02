@@ -1,0 +1,16 @@
+import java.util.*;
+class Test4
+{
+public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+String str="Java is simple language";
+String res[]=str.split(" ");
+System.out.println(Arrays.toString(res));
+String res1[]=str.split("is");
+System.out.println(Arrays.toString(res1));
+}
+}
+o/p:
+[Java, is, simple, language]
+[Java ,  simple language]
