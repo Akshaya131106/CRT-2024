@@ -1,0 +1,14 @@
+import java.util.*;
+class Test3
+{
+public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+String str="Java is simple language";
+System.out.println(str.substring(6));
+System.out.println(str.substring(3,15));
+}
+}
+o/p:
+s simple language
+a is simple
