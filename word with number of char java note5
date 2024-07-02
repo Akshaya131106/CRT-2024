@@ -1,0 +1,21 @@
+//word with number of characters
+import java.util.*;
+class Test5
+{
+public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+String str=s.nextLine();
+String res[]=str.split(" ");
+for(int i=0;i<res.length;i++)
+{
+System.out.println(res[i]+" "+res[i].length());
+}
+}
+}
+o/p:
+java is programming language
+java 4
+is 2
+programming 11
+language 8
