@@ -1,0 +1,36 @@
+//approach 2
+import java.util.*;
+class Test12
+{
+public static void main(String[] args)
+{
+Scanner s=new Scanner(System.in);
+int n=s.nextInt();
+int a[]=new int[n];
+for(int i=0;i<n;i++)
+{
+a[i]=s.nextInt();
+}
+int t=s.nextInt();
+int low=0,high=a.length-1;
+while(low<high)
+{
+if(a[low]+a[high]==t)
+{
+System.out.println(low+" "+high);
+return;
+}
+if(a[low]+a[high]<t)
+low++;
+else
+high--;
+}
+System.out.println("-1");
+}
+}
+i/p:
+5
+11 22 33 44 55
+88
+o/p:
+2 4
