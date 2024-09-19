@@ -1,0 +1,26 @@
+import java.util.*;
+public class Test23
+{
+public static void main(String[] args)
+{
+HashMap h1=new HashMap();
+h1.put(101,"sss");
+h1.put(123,"kkk");
+h1.put(105,"bbb");
+System.out.println(h1);
+h1.put(333,666);
+h1.put("aaa","ddd");
+h1.put("maths",88);
+System.out.println(h1);
+h1.put(106,"sss");
+System.out.println(h1);
+h1.put(101,"m");
+System.out.println(h1);
+}
+}
+o/p:
+{101=sss, 105=bbb, 123=kkk}
+{aaa=ddd, 101=sss, maths=88, 105=bbb, 123=kkk, 333=666}
+{aaa=ddd, 101=sss, maths=88, 105=bbb, 106=sss, 123=kkk, 333=666}
+{aaa=ddd, 101=m, maths=88, 105=bbb, 106=sss, 123=kkk, 333=666}
+
